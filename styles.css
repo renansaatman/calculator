@@ -100,9 +100,9 @@ footer {
         font-size: 80%;
     }
 
-    /*header {
-        padding-bottom: 100px;
-    }*/
+    header {
+        padding: 1rem;
+    }
     
     .calculator-grid {
         display: grid;
@@ -112,9 +112,9 @@ footer {
         grid-template-columns: repeat(4, 70px);
         grid-template-rows: minmax(90px, auto) repeat(5, 70px);
     }
-    /*
+    
     footer {
-        padding-top: 150px;
+        padding-top: 2rem;
         font-size: .8rem;
-    }*/
+    }
 }
