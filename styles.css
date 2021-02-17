@@ -51,7 +51,7 @@ header h1 {
     outline: none;
 }
 
-.calculator-grid button:hover{
+.calculator-grid button:active{
     background: rgba(255,255,255, .9);
 }
 
@@ -93,6 +93,16 @@ footer {
     align-items: center;
 }
 
+#link-github {
+    color: rgba(255, 255, 255, .7);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#link-github:active {
+    color: white;
+}
+
 /* Responsive */
 
 @media (max-width: 650px) {
@@ -101,7 +111,7 @@ footer {
     }
 
     header {
-        padding: 1rem;
+        padding: 0;
     }
     
     .calculator-grid {
