@@ -51,7 +51,7 @@ header h1 {
     outline: none;
 }
 
-.calculator-grid button:hover, .calculator-grid button:active{
+.calculator-grid button:hover{
     background: rgba(255,255,255, .9);
 }
 
@@ -111,13 +111,5 @@ footer {
     
         grid-template-columns: repeat(4, 60px);
         grid-template-rows: minmax(80px, auto) repeat(5, 60px);
-    }
-
-    .calculator-grid button:hover {
-        background:rgba(255,255,255, .75)
-    }
-
-    .calculator-grid button:active {
-        background:rgba(255,255,255, .9)
     }
 }
